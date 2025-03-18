@@ -13,9 +13,14 @@
     "format:check": "prettier --check \"**/*.{html,css,js,,mjs,cjs,ts,tsx,json,md,mdx}\" --cache"
   },
   "dependencies": {
+    "@sanity/image-url": "1",
+    "@sanity/vision": "3",
     "next": "15.2.3",
+    "next-sanity": "9",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sanity": "3",
+    "styled-components": "6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.0",
