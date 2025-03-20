@@ -10,6 +10,7 @@ const config: NextConfig = {
       },
     ],
   },
+  devIndicators: false,
 };
 
 export default config;
