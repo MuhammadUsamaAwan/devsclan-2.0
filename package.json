@@ -11,9 +11,12 @@
     "lint:fix": "eslint . --fix",
     "format:write": "prettier --write \"**/*.{html,css,js,mjs,cjs,ts,tsx,json,md,mdx}\" --cache",
     "format:check": "prettier --check \"**/*.{html,css,js,,mjs,cjs,ts,tsx,json,md,mdx}\" --cache",
-    "sanity:deploy": "sanity deploy"
+    "sanity:deploy": "sanity deploy",
+    "shadcn:add": "pnpm dlx shadcn@canary add"
   },
   "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.1.6",
+    "@radix-ui/react-slot": "^1.1.2",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.80.0",
     "class-variance-authority": "^0.7.1",
