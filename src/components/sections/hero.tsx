@@ -6,7 +6,7 @@ import { buttonVariants } from '~/components/ui/button';
 
 export function Hero() {
   return (
-    <section className='container mx-auto pt-40'>
+    <section className='container mx-auto pt-20'>
       <div className='flex justify-center'>
         <div className='border-muted text-foreground/80 flex w-fit justify-center rounded-full border px-4 py-2 text-sm'>
           ⚡ Elevating Digital Interactions

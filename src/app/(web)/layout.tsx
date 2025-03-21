@@ -18,15 +18,7 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
     <html lang='en'>
       <body className={cn(fontSans.variable, 'antialiased')}>
         <SiteHeader />
-        <main>
-          {children}
-          {/* {Array.from({ length: 100 }, (_, i) => (
-            <p key={i}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consectetur voluptatibus? Vero magni
-              aliquid debitis dolorem velit exercitationem expedita placeat!
-            </p>
-          ))} */}
-        </main>
+        <main>{children}</main>
         <Background />
       </body>
     </html>

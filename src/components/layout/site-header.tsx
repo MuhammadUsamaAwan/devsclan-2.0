@@ -24,8 +24,8 @@ const menuItems = [
     link: '/about',
   },
   {
-    title: 'Projects',
-    link: '/projects',
+    title: 'Services',
+    link: '/services',
   },
   {
     title: 'Portfolio',
